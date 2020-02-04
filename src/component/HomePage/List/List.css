@@ -1,0 +1,35 @@
+.list-container {
+    background-color: rgb(0, 0, 0);
+
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    margin: 30px 20px 30px 20px;
+    list-style-type: none;
+    height: 25vw;
+    width: auto;
+    border-top: 1px solid white;
+}
+
+
+/* .list-name {
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 1px black;
+    text-transform: uppercase;
+    font-weight: 500;
+} */
+
+.list-img {
+    height: 20vw;
+    width: 20vw;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.list-img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition-property: all;
+  }

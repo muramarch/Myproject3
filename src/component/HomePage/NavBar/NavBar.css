@@ -1,0 +1,46 @@
+.nav-bar {
+    background-color: rgb(92, 92, 92);
+    padding: 1px;
+    background-image: url(./nav.jpg);
+    background-size: contain;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+
+h1{
+    cursor: pointer;
+    padding-bottom: -15px;
+    margin-top: 5px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+}
+
+
+.menu {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+}
+
+.menu__item {
+    display: inline-block;
+    font-size: 13px;
+    padding: 12px;
+    margin-right: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: .2s;
+    size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.menu__item:hover {
+    background-color: rgba(146, 145, 145, 0.63);
+
+}

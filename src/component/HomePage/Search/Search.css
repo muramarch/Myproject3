@@ -1,0 +1,18 @@
+input {
+  border-radius: 40px;
+  border: none;
+  background-color: rgba(207, 207, 207, 0.719);
+  outline: none;
+  height: 40px;
+  width: 60%;
+  margin-left: 20%;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 25px;
+  padding-left: 10px;
+
+}
+
+.search {
+  margin: 10px 40px 10px 40px;
+}

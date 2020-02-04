@@ -1,0 +1,25 @@
+.footer_content {
+    display: flex;
+    margin: 40px 0 0 0;
+    height: 200px;
+    background-color: rgb(24, 24, 24);
+    padding: 5px;
+    /* box-shadow: 1px 1px 2px 1px rgba(153, 153, 153, 0.404); */
+
+}
+
+.footer-info {
+    position: absolute;
+    left: 5%;
+    margin-top: 40px;
+    font-size: 13px;
+    color: rgb(163, 163, 163);
+}
+
+.footer-info1 {
+    position: absolute;
+    right: 5%;
+    margin-top: 40px;
+    font-size: 13px;
+    color: rgb(163, 163, 163);
+}
